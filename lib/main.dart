@@ -1,4 +1,4 @@
-import 'package:anime_info/BottomBar/bottom_bar.dart';
+import 'package:anime_info/bottombar/bottom_bar.dart';
 import 'package:flutter/material.dart';
 
 void main() {
