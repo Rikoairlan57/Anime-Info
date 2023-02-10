@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:anime_info/theme.dart';
 
 class Gallery extends StatefulWidget {
   const Gallery({super.key});
@@ -12,11 +13,13 @@ class _AnimeListState extends State<Gallery> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Galley"),
+        title: Center(
+          child: Text("Gallery"),
+        ),
         elevation: 0,
-        backgroundColor: Colors.grey,
+        backgroundColor: backgroundColor,
       ),
-      backgroundColor: Colors.black54,
+      backgroundColor: backgroundColor,
       body: Container(
         padding: EdgeInsets.all(20),
       ),
