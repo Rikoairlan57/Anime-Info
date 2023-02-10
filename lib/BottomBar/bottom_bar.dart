@@ -1,7 +1,7 @@
-import 'package:anime_info/screens/Home.dart';
-import 'package:anime_info/screens/Setting.dart';
-import 'package:anime_info/screens/Gallery.dart';
-import 'package:anime_info/screens/newsAnime.dart';
+import 'package:anime_info/screens/home.dart';
+import 'package:anime_info/screens/setting.dart';
+import 'package:anime_info/screens/gallery.dart';
+import 'package:anime_info/screens/news_anime.dart';
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 
