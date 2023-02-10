@@ -12,7 +12,9 @@ class _AnimeListState extends State<Gallery> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Galley"),
+        title: Center(
+          child: Text("Galley"),
+        ),
         elevation: 0,
         backgroundColor: Colors.grey,
       ),
