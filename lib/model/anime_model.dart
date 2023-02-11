@@ -36,10 +36,10 @@ var listAnime = [
   ),
   AnimeModel(
     id: 4,
-    name: "Shingeki no Kyojin",
-    poster: "images/anime/aot.jpg",
+    name: "One Punch Man",
+    poster: "images/anime/one-punch-man.png",
     overview:
-        "Setelah kampung halamannya dihancurkan dan ibunya terbunuh, Eren Jaeger muda bersumpah untuk membersihkan bumi dari raksasa humanoid Titans yang telah membawa umat manusia ke ambang kepunahan.",
+        "One Punch Man berkisah tentang Saitama, seorang pahlawan super yang dapat mengalahkan lawan dengan satu pukulan tetapi berusaha untuk menemukan lawan yang layak setelah bosan dengan kurangnya tantangan karena kekuatannya yang luar biasa.",
   ),
   AnimeModel(
     id: 5,
@@ -82,5 +82,19 @@ var listAnime = [
     poster: "images/anime/bluelock.jpeg",
     overview:
         "Asosiasi Sepak Bola Jepang memutuskan untuk mempekerjakan pelatih yang penuh teka-teki dan eksentrik; Jinpachi Ego. Dengan harapan dia dapat memandu timnas jepang memenangkan Piala Dunia.Demi mencari striker egois yang haus akan gol, Jinpachi Ego memulai program Blue Lock— sebuah fasilitas seperti penjara di mana tiga ratus striker berbakat dari SMA seluruh Jepang diisolasi dan diadu satu sama lain. Seorang pemenang yang lolos dari Blue Lock nantinya berhak menjadi striker timnas jepang, sedangkan yang kalah dilarang bergabung timnas jepang selamanya.",
+  ),
+  AnimeModel(
+    id: 11,
+    name: "No Game No life",
+    poster: "images/anime/ngnl.jpeg",
+    overview:
+        "Sora dan Shiro adalah dua saudara tiri hikikomori yang dikenal di dunia game online sebagai Blank, gamer yang tak terkalahkan. Suatu hari, mereka ditantang untuk bermain catur oleh Tet, dewa dari realitas lain. Keduanya menang dan ditawari untuk hidup di dunia yang berpusat seputar permainan. Mereka menerima dan mempercayainya sebagai lelucon, dan dipanggil ke realitas yang dikenal sebagai Disboard. Di sana, mantra yang dikenal sebagai Sepuluh Ikrar mencegah warga Disboard untuk saling menyakiti, dan memaksa mereka menyelesaikan perselisihan dengan bertaruh dalam permainan yang aturan dan hadiahnya ditentukan secara ajaib.",
+  ),
+  AnimeModel(
+    id: 12,
+    name: "Black Clover",
+    poster: "images/anime/black-clover.jpg",
+    overview:
+        "mengisahkan tentang seorang anak laki-laki bernama Asta yang lahir tanpa kekuatan sihir, suatu fenomena yang tidak normal di dunia tempatnya tinggal. Bersama dengan teman-temannya dari Banteng hitam, dia bercita-cita untuk menjadi Kaisar sihir.",
   ),
 ];
