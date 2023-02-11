@@ -10,37 +10,37 @@ class ImageData {
 
 var imageList = [
   ImageData(
-    id: '1',
-    imageGallery: "images/gallery/gojo.png",
-  ),
-  ImageData(
-    id: '2',
-    imageGallery: 'images/gallery/one-piece.jpeg',
-  ),
-  ImageData(
     id: '3',
     imageGallery: 'images/gallery/one-piece2.jpeg',
+  ),
+  ImageData(
+    id: '5',
+    imageGallery: 'images/gallery/blue-lock2.jpg',
   ),
   ImageData(
     id: '4',
     imageGallery: 'images/gallery/blue-lock.jpeg',
   ),
   ImageData(
-    id: '5',
-    imageGallery: 'images/gallery/blue-lock2.jpg',
+    id: '6',
+    imageGallery: 'images/gallery/kimetsu-no-yaiba.jpg',
   ),
-  // ImageData(
-  //   id: '6',
-  //   imageGallery: 'https://picsum.photos/seed/image006/500/500',
-  // ),
-  // ImageData(
-  //   id: '7',
-  //   imageGallery: 'https://picsum.photos/seed/image007/500/400',
-  // ),
-  // ImageData(
-  //   id: '8',
-  //   imageGallery: 'https://picsum.photos/seed/image008/500/700',
-  // ),
+  ImageData(
+    id: '2',
+    imageGallery: 'images/gallery/one-piece.jpeg',
+  ),
+  ImageData(
+    id: '7',
+    imageGallery: 'images/gallery/kimetsu.jpeg',
+  ),
+  ImageData(
+    id: '1',
+    imageGallery: "images/gallery/gojo.png",
+  ),
+  ImageData(
+    id: '8',
+    imageGallery: 'images/gallery/kimetsu2.jpeg',
+  ),
   // ImageData(
   //   id: '9',
   //   imageGallery: 'https://picsum.photos/seed/image009/500/600',
