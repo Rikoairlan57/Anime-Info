@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:anime_info/model/anime_model.dart';
 import 'package:anime_info/screens/detail_page.dart';
-import 'package:anime_info/theme.dart';
 
 class AnimeCard extends StatelessWidget {
   final AnimeModel anime;
@@ -39,7 +38,10 @@ class AnimeCard extends StatelessWidget {
               padding: const EdgeInsets.only(right: 8, left: 8, bottom: 8),
               child: Text(
                 anime.name,
-                style: primaryTextStyle.copyWith(fontWeight: medium),
+                style: TextStyle(
+                  fontWeight: FontWeight.w500,
+                  color: Colors.white,
+                ),
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
               ),
