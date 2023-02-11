@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:anime_info/model/anime_model.dart';
-import 'package:anime_info/theme.dart';
+
 import 'package:anime_info/widget/anime_card.dart';
 
 class Home extends StatefulWidget {
@@ -22,9 +22,9 @@ class _HomeState extends State<Home> {
           child: const Text("Anime Indonesia"),
         ),
         elevation: 0,
-        backgroundColor: backgroundColor,
+        backgroundColor: Colors.black12,
       ),
-      backgroundColor: backgroundColor,
+      backgroundColor: Colors.black87,
       body: GridView.count(
         scrollDirection: Axis.vertical,
         crossAxisCount: 3,

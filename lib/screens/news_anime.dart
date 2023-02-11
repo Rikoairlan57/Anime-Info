@@ -1,7 +1,6 @@
 import 'package:anime_info/model/news_model.dart';
 import 'package:flutter/material.dart';
 import 'package:anime_info/widget/news_card.dart';
-import '../theme.dart';
 
 class NewsAnime extends StatefulWidget {
   const NewsAnime({
@@ -21,9 +20,9 @@ class _NewsAnimeState extends State<NewsAnime> {
           child: Text("News Anime Indonesia"),
         ),
         elevation: 0,
-        backgroundColor: backgroundColor,
+        backgroundColor: Colors.black12,
       ),
-      backgroundColor: backgroundColor,
+      backgroundColor: Colors.black87,
       body: Padding(
         padding: const EdgeInsets.all(24.0),
         child: GridView.count(

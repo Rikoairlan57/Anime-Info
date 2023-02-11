@@ -1,7 +1,7 @@
 import 'package:anime_info/model/gallery_model.dart';
 import 'package:anime_info/widget/gallery_card.dart';
 import 'package:flutter/material.dart';
-import 'package:anime_info/theme.dart';
+
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 
 class Gallery extends StatelessWidget {
@@ -15,9 +15,9 @@ class Gallery extends StatelessWidget {
             child: Text("Gallery"),
           ),
           elevation: 0,
-          backgroundColor: backgroundColor,
+          backgroundColor: Colors.black12,
         ),
-        backgroundColor: backgroundColor,
+        backgroundColor: Colors.black87,
         body: MasonryGridView.count(
           itemCount: imageList.length,
           shrinkWrap: true,

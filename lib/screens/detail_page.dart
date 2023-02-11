@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:anime_info/model/anime_model.dart';
-import 'package:anime_info/theme.dart';
 
 class DetailPage extends StatelessWidget {
   final AnimeModel anime;
@@ -12,15 +11,14 @@ class DetailPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Detail Anime"),
-        backgroundColor: backgroundColor,
+        backgroundColor: Colors.black12,
         elevation: 0,
       ),
-      backgroundColor: backgroundColor,
+      backgroundColor: Colors.black87,
       body: SafeArea(
         child: SingleChildScrollView(
           child: Container(
-            padding: EdgeInsets.only(
-                left: margin16, right: margin16, bottom: margin16),
+            padding: EdgeInsets.only(left: 16, right: 16, bottom: 16),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -37,13 +35,16 @@ class DetailPage extends StatelessWidget {
                       ),
                     ),
                     SizedBox(
-                      width: margin16,
+                      width: 16,
                     ),
                     Expanded(
                       child: Text(
                         anime.name,
-                        style: primaryTextStyle.copyWith(
-                            fontSize: 20, fontWeight: semiBold),
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.white,
+                        ),
                         textAlign: TextAlign.justify,
                       ),
                     ),
@@ -55,16 +56,22 @@ class DetailPage extends StatelessWidget {
                   children: [
                     Text(
                       "Overview",
-                      style: primaryTextStyle.copyWith(
-                          fontSize: 20, fontWeight: semiBold),
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.white,
+                      ),
                     ),
                     const SizedBox(
                       height: 8,
                     ),
                     Text(
                       anime.overview,
-                      style: primaryTextStyle.copyWith(
-                          fontSize: 14, fontWeight: medium),
+                      style: TextStyle(
+                        fontSize: 14,
+                        fontWeight: FontWeight.w500,
+                        color: Colors.white,
+                      ),
                       textAlign: TextAlign.justify,
                     ),
                   ],
