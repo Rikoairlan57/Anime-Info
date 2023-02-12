@@ -1,7 +1,7 @@
 import 'package:anime_info/screens/home.dart';
-import 'package:anime_info/screens/setting.dart';
 import 'package:anime_info/screens/gallery.dart';
 import 'package:anime_info/screens/news_anime.dart';
+import 'package:anime_info/screens/about_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 
@@ -19,13 +19,13 @@ class _BottomBarState extends State<BottomBar> {
     const Home(),
     const Gallery(),
     const NewsAnime(),
-    const SettingPage(),
+    const AboutScreen(),
   ];
   int currentindex = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: const Color.fromARGB(255, 249, 233, 252),
+        backgroundColor: Colors.white,
         bottomNavigationBar: Container(
           padding: const EdgeInsets.all(10),
           child: SafeArea(
@@ -55,8 +55,8 @@ class _BottomBarState extends State<BottomBar> {
                 text: 'Info Anime',
               ),
               GButton(
-                icon: Icons.settings,
-                text: 'Settings',
+                icon: Icons.supervised_user_circle_rounded,
+                text: 'About me',
               )
             ],
           )),
