@@ -57,9 +57,9 @@ class _NewsAnimeState extends State<NewsAnime> {
                           Text(
                             news.contentHeader,
                             style: const TextStyle(
-                              fontSize: 15.0,
-                              fontWeight: FontWeight.bold,
-                            ),
+                                fontSize: 15.0,
+                                fontWeight: FontWeight.w500,
+                                color: Colors.black54),
                             maxLines: 3,
                             overflow: TextOverflow.ellipsis,
                           ),
