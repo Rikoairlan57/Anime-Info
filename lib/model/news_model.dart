@@ -1,21 +1,22 @@
 class NewsAnime {
-  String id;
+  double id;
   String title;
   String imageNews;
   String contentHeader;
   String contentBody;
 
-  NewsAnime(
-      {required this.id,
-      required this.title,
-      required this.imageNews,
-      required this.contentHeader,
-      required this.contentBody});
+  NewsAnime({
+    required this.id,
+    required this.title,
+    required this.imageNews,
+    required this.contentHeader,
+    required this.contentBody,
+  });
 }
 
 var newsAnime = [
   NewsAnime(
-    id: "1",
+    id: 1,
     title: "One Punch Man Season 3 Rilis date",
     imageNews: "images/news/opm3.jpeg",
     contentHeader:
@@ -24,7 +25,7 @@ var newsAnime = [
         "Pengumuman resmi terkait season ketiga untuk One Punch Man sendiri sudah dikeluarkan melalui situs resmi dari anime tersebut. Dinyatakan bahwa season ketiga sedang diproduksi, dan diharapkan bisa segera ditayangkan dalam bentuk anime dan mangaPada visual yang beredar bersamaan dengan pengumuman tersebut, masih tampak Saitama dan Garou menjadi highlight dari kisah ini. Keduanya dibuat oleh desainer karakter terdahulu, Chikashi Kubota. Foto sampul Twitter anime ini menulis bahwa Kage no Jitsuryokusha ni Naritakute! menuliskan jadwal penayangan mulai Oktober 2022.",
   ),
   NewsAnime(
-    id: "2",
+    id: 2,
     title: "anime baru Kage no Jitsuryokusha ni Naritakute!",
     imageNews: "images/news/knjnn.jpeg",
     contentHeader:
