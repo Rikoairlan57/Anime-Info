@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:anime_info/model/anime_model.dart';
-import 'package:anime_info/screens/detail_page.dart';
+import 'package:anime_info/screens/detail_screen.dart';
 
 class AnimeCard extends StatelessWidget {
   final AnimeModel anime;
@@ -12,7 +12,7 @@ class AnimeCard extends StatelessWidget {
     return InkWell(
       onTap: () {
         Navigator.push(context, MaterialPageRoute(builder: (context) {
-          return DetailPage(
+          return DetailScreen(
             anime: anime,
           );
         }));
