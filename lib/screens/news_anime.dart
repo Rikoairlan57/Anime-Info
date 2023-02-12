@@ -2,16 +2,11 @@ import 'package:anime_info/model/news_model.dart';
 import 'package:flutter/material.dart';
 import 'package:anime_info/widget/news_card.dart';
 
-class NewsAnime extends StatefulWidget {
+class NewsAnime extends StatelessWidget {
   const NewsAnime({
     Key? key,
   }) : super(key: key);
 
-  @override
-  State<NewsAnime> createState() => _NewsAnimeState();
-}
-
-class _NewsAnimeState extends State<NewsAnime> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

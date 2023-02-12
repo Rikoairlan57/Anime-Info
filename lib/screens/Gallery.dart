@@ -4,14 +4,9 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 
-class Gallery extends StatefulWidget {
+class Gallery extends StatelessWidget {
   const Gallery({super.key});
 
-  @override
-  State<Gallery> createState() => _GalleryState();
-}
-
-class _GalleryState extends State<Gallery> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
