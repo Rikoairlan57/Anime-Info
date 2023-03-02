@@ -28,7 +28,7 @@ class DetailScreen extends StatelessWidget {
                     Expanded(
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(8),
-                        child: Image.asset(
+                        child: Image.network(
                           anime.poster,
                           fit: BoxFit.cover,
                         ),
@@ -80,7 +80,7 @@ class DetailScreen extends StatelessWidget {
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
-                              "Menit: ${anime.minute} min",
+                              "Minute: ${anime.minute} min",
                               style: TextStyle(
                                 fontSize: 15,
                                 fontWeight: FontWeight.normal,
@@ -92,7 +92,7 @@ class DetailScreen extends StatelessWidget {
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
-                              "Pembuat: ${anime.pembuat}",
+                              "Creator: ${anime.pembuat}",
                               style: TextStyle(
                                 fontSize: 15,
                                 fontWeight: FontWeight.normal,

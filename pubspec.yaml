@@ -28,8 +28,10 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
-  assets:
-    - images/
+  # assets:
+  #   - assets/anime
+  # - assets/gallery
+  # - assets/news
   #   - images/a_dot_ham.jpeg
 
   # fonts:

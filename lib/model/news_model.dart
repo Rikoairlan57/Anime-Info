@@ -18,7 +18,8 @@ var newsAnime = [
   NewsAnime(
     id: 1,
     title: "One Punch Man Season 3 Rilis date",
-    imageNews: "images/news/opm3.jpeg",
+    imageNews:
+        "https://res.cloudinary.com/djrkq9eey/image/upload/v1677716223/samples/infoanime/news/opm3_tm61oh.jpg",
     contentHeader:
         "Anime dan manga One Punch Man sukses memukau penggemarnya, dengan pertarungan akbar dari Garou dan Saitama di penghujung season dua lalu. Jelas kemudian penggemar mengharapkan season ketiga, dan mulai bertanya-tanya kapan season selanjutnya akan diproduksi dan diterbitkan.",
     contentBody:
@@ -27,7 +28,8 @@ var newsAnime = [
   NewsAnime(
     id: 2,
     title: "anime baru Kage no Jitsuryokusha ni Naritakute!",
-    imageNews: "images/news/knjnn.jpeg",
+    imageNews:
+        "https://res.cloudinary.com/djrkq9eey/image/upload/v1677716224/samples/infoanime/news/knjnn_e9sdgm.jpg",
     contentHeader:
         "Kage no Jitsuryokusha ni Naritakute! atau yang juga disebut The Eminence in Shadow merupakan salah satu anime yang akan rilis pada tahun 2022.",
     contentBody:

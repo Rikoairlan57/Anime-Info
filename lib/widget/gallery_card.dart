@@ -12,7 +12,7 @@ class ImageCard extends StatelessWidget {
       padding: const EdgeInsets.all(2.0),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(16.0),
-        child: Image.asset(imageData.imageGallery, fit: BoxFit.cover),
+        child: Image.network(imageData.imageGallery, fit: BoxFit.cover),
       ),
     );
   }

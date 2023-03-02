@@ -32,7 +32,7 @@ class NewsAnime extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
                     Expanded(
-                      child: Image.asset(
+                      child: Image.network(
                         news.imageNews,
                         fit: BoxFit.cover,
                       ),

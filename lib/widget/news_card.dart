@@ -21,7 +21,7 @@ class NewsCard extends StatelessWidget {
                 children: <Widget>[
                   Expanded(
                     flex: 1,
-                    child: Image.asset(news.imageNews),
+                    child: Image.network(news.imageNews),
                   ),
                   Expanded(
                     flex: 2,

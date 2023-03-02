@@ -13,7 +13,8 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return EasySplashScreen(
-      logo: Image.asset('images/anime/splash-gojo.png'),
+      logo: Image.network(
+          "https://res.cloudinary.com/djrkq9eey/image/upload/v1677716163/samples/infoanime/anime/splash-gojo_mmgwry.png"),
       title: const Text(
         "Anime Indonesia",
         style: TextStyle(
